@@ -1,0 +1,179 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 5px solid black;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 3rem solid black;
+  border-top: 3rem solid black;
+}
+
+.description{
+  white-space: pre-wrap;
+}
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px transparent ;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.past {
+  background-color: #d3d3d3;
+  color: white;
+}
+
+.present {
+  background-color: #ff6961;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: rgb(81, 20, 20);
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transform: scale(4);
+}
+
+.saveBtn:active{
+  transform: scale(4);
+}
+
+.test {
+  justify-content:space-evenly;
+
+flex-wrap:nowrap
+}
+
+h3{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 
+{
+  font-size: 5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:black;
+
+}
+
+h2{
+  justify-content: space-around;
+  align-items: left;
+}
+
+.textarea{
+  font-size: 44px;
+  color: black;
+  font-family: 'DotGothic16';
+}
+
+.present-customblue {
+    --bg-opacity: 1;
+    background-color: #7f7b81;
+    background-color: rgba(50,150,150,var(--bg-opacity));
+}
+
+.future-blue {
+    --bg-opacity: 1;
+    background-color: #133747;
+    background-color: rgba(60, 141, 154,var(--bg-opacity));
+}
+.past-grey {
+    --bg-opacity: 1;
+    background-color: #bcbcbc;
+    background-color: rgba(191, 191, 191,var(--bg-opacity));
+    }
+
+.form-control{
+      border-block-start-color: rgb(122, 100, 100);
+    }
+
+    /* Larger devices */
+@media screen and (max-width: 1200px) {
+  #drinkOptions {
+    column-count: 3;
+    column-gap: 10px;
+  }
+}
+
+/* Larger devices */
+@media screen and (max-width: 992px) {
+  aside {
+    width: 100% !important;
+  }
+  .imageStyle {
+    width: 200px !important;
+    height: 200px !important;
+  }
+  #drinkOptions {
+    column-count: 2;
+    column-gap: 10px;
+  }
+}
+
+/* Mid size devices */
+@media screen and (max-width: 768px) {
+  aside {
+    width: 100%;
+  }
+  .imageStyle {
+    width: 150px !important;
+    height: 150px !important;
+  }
+  #drinkOptions {
+    column-count: 2;
+    column-gap: 10px;
+  }
+}
+
+/* Smaller devices */
+@media screen and (max-width: 576px) {
+  aside {
+    width: 100%;
+  }
+  .imageStyle {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  #drinkOptions {
+    column-count: 1;
+    column-gap: 10px;
+  }
+}
