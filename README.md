@@ -1,1 +1,4 @@
-This assignment required the use of Jquery and a 3rd party API to create a workday Scheduler.  The Scheduler will allow the user to book out their time from 8:00 AM local time to 5:00 PM local time.  The data inputted will be cached until the user ultimately decides to remove the content.
+Using Bootstrap and jQuery a daily work scheduler has been created.  To enter a task for a certain time of day one must simply click within the area provided to the right of the time and enter in a task.  To save the task the save button to the right will need to be clicked.  Once the task has been completed the same method can be used to empty out the data.  The scheduler keeps track of time realtime and the color of the tasks change depending on the time of day.  The current time of day will display a green color, the future a blue color, and the past a grey.
+
+
+![Screenshot](./Assets/images/grindScheduler.PNG)

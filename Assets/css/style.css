@@ -104,10 +104,10 @@ h2{
   font-family: 'DotGothic16';
 }
 
-.present-customblue {
+.present-customgreen {
     --bg-opacity: 1;
     background-color: #7f7b81;
-    background-color: rgba(50,150,150,var(--bg-opacity));
+    background-color: rgba(50,160,110,var(--bg-opacity));
 }
 
 .future-blue {
