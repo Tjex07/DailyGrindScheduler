@@ -1,0 +1,1 @@
+This assignment required the use of Jquery and a 3rd party API to create a workday Scheduler.  The Scheduler will allow the user to book out their time from 8:00 AM local time to 5:00 PM local time.  The data inputted will be cached until the user ultimately decides to remove the content.
